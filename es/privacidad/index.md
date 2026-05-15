@@ -5,6 +5,8 @@ permalink: /es/privacidad/
 lang: es
 ---
 
+> 🌐 **Idioma:** [PT](/privacidade/) · [EN](/en/privacy/) · **ES**
+
 > Esta es una traducción de cortesía del documento original en portugués. En caso de cualquier discrepancia, prevalece la [versión en portugués](https://geninho.app.br/privacidade/).
 
 # Política de Privacidad — Geninho

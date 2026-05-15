@@ -5,6 +5,8 @@ permalink: /termos/
 lang: pt-BR
 ---
 
+> 🌐 **Idioma:** **PT** · [EN](/en/terms/) · [ES](/es/terminos/)
+
 # Termos de Uso — Geninho
 
 **Última atualização:** 19 de abril de 2026
