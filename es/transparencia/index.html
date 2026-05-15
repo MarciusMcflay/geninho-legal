@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Transparencia y Seguridad — Geninho, app educativa con IA para familias."/>
+<link rel="canonical" href="https://geninho.app.br/es/transparencia/"/>
+<meta property="og:title" content="Transparencia y Seguridad — Geninho"/>
+<meta property="og:description" content="Aprende sobre los principios de transparencia y seguridad de Geninho."/>
+<meta property="og:url" content="https://geninho.app.br/es/transparencia/"/>
+<meta name="robots" content="index, follow"/>
+<title>Transparencia y Seguridad — Geninho</title>
+<style>
+  :root {
+    --bg: #fbfbfd;
+    --bg-soft: #f5f5f7;
+    --text: #1d1d1f;
+    --text-muted: #6e6e73;
+    --accent: #2563EB;
+    --line: rgba(0,0,0,0.08);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.47059;
+    letter-spacing: -0.015em;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .container { width: 100%; max-width: 1024px; margin: 0 auto; padding: 0 22px; }
+
+  .nav {
+    position: sticky; top: 0; z-index: 50;
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    background: rgba(251, 251, 253, 0.8);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-inner {
+    display: flex; align-items: center; justify-content: space-between;
+    height: 48px; max-width: 1024px; margin: 0 auto; padding: 0 22px;
+  }
+  .logo { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 20px; letter-spacing: -0.02em; color: var(--text); }
+  .logo-mark {
+    width: 28px; height: 28px; border-radius: 8px;
+    background: linear-gradient(135deg, var(--accent), #38a8f0);
+    display: grid; place-items: center; color: #fff; font-size: 14px; font-weight: 700;
+  }
+  .nav-links { display: flex; gap: 22px; font-size: 12px; color: var(--text); font-weight: 400; flex: 1; margin-left: 32px; }
+  .nav-links a { opacity: 0.88; transition: opacity 0.2s; color: var(--text); }
+  .nav-links a:hover { opacity: 1; text-decoration: none; }
+  .lang-switch { display: flex; gap: 8px; font-size: 11px; font-weight: 500; }
+  .lang-switch a { color: var(--text-muted); opacity: 0.7; }
+  .lang-switch a.active { color: var(--accent); opacity: 1; font-weight: 600; }
+
+  .legal-content { padding: 80px 0 60px; }
+  .legal-content h1 { font-size: 42px; font-weight: 600; letter-spacing: -0.025em; line-height: 1.1; margin-bottom: 8px; }
+  .legal-content .update-date { font-size: 13px; color: var(--text-muted); margin-bottom: 48px; }
+  .legal-content .note { background: var(--bg-soft); padding: 12px 16px; border-left: 3px solid var(--accent); margin-bottom: 32px; font-size: 14px; }
+  .legal-content h2 { font-size: 22px; font-weight: 600; letter-spacing: -0.015em; margin-top: 42px; margin-bottom: 16px; }
+  .legal-content h3 { font-size: 18px; font-weight: 600; letter-spacing: -0.015em; margin-top: 28px; margin-bottom: 12px; }
+  .legal-content p { margin-bottom: 16px; color: var(--text); line-height: 1.6; }
+  .legal-content ul { margin-left: 20px; margin-bottom: 16px; }
+  .legal-content li { margin-bottom: 8px; color: var(--text); line-height: 1.6; }
+  .legal-content strong { font-weight: 600; }
+
+  footer { background: var(--bg-soft); padding: 40px 0; font-size: 12px; color: var(--text-muted); border-top: 1px solid var(--line); }
+  .footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+  .footer-links { display: flex; gap: 22px; flex-wrap: wrap; }
+  .footer-links a { color: var(--text-muted); }
+  .footer-links a:hover { color: var(--text); text-decoration: underline; }
+
+  @media (max-width: 768px) {
+    .nav-links { gap: 12px; font-size: 11px; margin-left: 16px; }
+    .legal-content h1 { font-size: 32px; }
+    .legal-content h2 { font-size: 20px; }
+    .footer-inner { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="/es/">
+      <span class="logo-mark">G</span>
+      <span>Geninho</span>
+    </a>
+    <div class="nav-links">
+      <a href="/es/#responsables">Responsables</a>
+      <a href="/es/#estudiantes">Estudiantes</a>
+      <a href="/es/#geninho">Geninho</a>
+      <a href="/es/#funcionalidades">Funcionalidades</a>
+      <a href="/es/#planes">Planes</a>
+    </div>
+    <div class="lang-switch" aria-label="Idioma / Language / Idioma">
+      <a href="/transparencia/" hreflang="pt-BR" lang="pt-BR">PT</a>
+      <a href="/en/transparency/" hreflang="en" lang="en">EN</a>
+      <a href="/es/transparencia/" class="active" hreflang="es" lang="es">ES</a>
+    </div>
+  </div>
+</nav>
+
+<section class="legal-content">
+  <div class="container">
+    <h1>Transparencia y Seguridad — Geninho</h1>
+    <div class="update-date"><strong>Última actualización:</strong> 28 de marzo de 2026</div>
+    <div class="note">Esta es una traducción de cortesía del documento original en portugués. En caso de cualquier discrepancia, prevalece la <a href="/transparencia/">versión en portugués</a>.</div>
+
+    <h2>1. Principios</h2>
+    <p>Geninho trata los datos con base en:</p>
+    <ul>
+      <li>recopilación mínima,</li>
+      <li>finalidad específica,</li>
+      <li>acceso controlado,</li>
+      <li>revisión continua de seguridad.</li>
+    </ul>
+
+    <h2>2. Seguridad de la cuenta</h2>
+    <ul>
+      <li>autenticación con proveedores confiables,</li>
+      <li>soporte de biometría en dispositivos compatibles,</li>
+      <li>separación de permisos por rol (responsable vs. hijo/a),</li>
+      <li>opción de cerrar sesión y eliminar la cuenta en la app.</li>
+    </ul>
+
+    <h2>3. Seguridad de la plataforma</h2>
+    <ul>
+      <li>protección de datos en tránsito y en almacenamiento conforme a los recursos de los proveedores utilizados,</li>
+      <li>monitoreo operativo,</li>
+      <li>mejora continua de las prácticas de seguridad.</li>
+    </ul>
+
+    <h2>4. OCR, IA y revisión humana</h2>
+    <ul>
+      <li>la extracción OCR ocurre en el dispositivo antes de la etapa de IA,</li>
+      <li>los resultados de importación y clasificación pueden tener ruido y deben ser verificados,</li>
+      <li>los cuestionarios y planes generados por IA tienen finalidad de apoyo pedagógico.</li>
+    </ul>
+
+    <h2>5. Uso de YouTube</h2>
+    <ul>
+      <li>Los enlaces de YouTube solo se ofrecen cuando el permiso esté habilitado en el perfil del alumno.</li>
+      <li>Sin ese permiso, la app no debe sugerir enlaces de YouTube en los flujos de estudio y cuestionario.</li>
+    </ul>
+
+    <h2>6. Incidentes de seguridad</h2>
+    <p>Los incidentes relevantes se tratan con prioridad técnica. Cuando corresponda, los usuarios afectados pueden ser notificados por los canales adecuados.</p>
+
+    <h2>7. Buenas prácticas recomendadas</h2>
+    <ul>
+      <li>mantener el dispositivo y el sistema actualizados,</li>
+      <li>usar autenticación fuerte en el proveedor de inicio de sesión,</li>
+      <li>evitar compartir la cuenta,</li>
+      <li>revisar periódicamente los datos escolares importados.</li>
+    </ul>
+
+    <h2>8. Canal de contacto</h2>
+    <p>Para dudas de seguridad y privacidad: <a href="mailto:suporte@geninho.app.br"><strong>suporte@geninho.app.br</strong></a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <span>© 2026 Geninho — Pablo Rodrigo (desarrollador independiente), Recife/PE, Brasil</span>
+    <div class="footer-links">
+      <a href="/es/terminos/">Términos</a>
+      <a href="/es/privacidad/">Privacidad</a>
+      <a href="/es/transparencia/">Transparencia</a>
+      <a href="mailto:suporte@geninho.app.br">suporte@geninho.app.br</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

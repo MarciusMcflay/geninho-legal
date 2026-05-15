@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Privacy Policy — Geninho, an AI-powered study app for families."/>
+<link rel="canonical" href="https://geninho.app.br/en/privacy/"/>
+<meta property="og:title" content="Privacy Policy — Geninho"/>
+<meta property="og:description" content="Read Geninho's Privacy Policy and understand how your data is protected."/>
+<meta property="og:url" content="https://geninho.app.br/en/privacy/"/>
+<meta name="robots" content="index, follow"/>
+<title>Privacy Policy — Geninho</title>
+<style>
+  :root {
+    --bg: #fbfbfd;
+    --bg-soft: #f5f5f7;
+    --text: #1d1d1f;
+    --text-muted: #6e6e73;
+    --accent: #2563EB;
+    --line: rgba(0,0,0,0.08);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.47059;
+    letter-spacing: -0.015em;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .container { width: 100%; max-width: 1024px; margin: 0 auto; padding: 0 22px; }
+
+  /* ---------- Nav ---------- */
+  .nav {
+    position: sticky; top: 0; z-index: 50;
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    background: rgba(251, 251, 253, 0.8);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-inner {
+    display: flex; align-items: center; justify-content: space-between;
+    height: 48px; max-width: 1024px; margin: 0 auto; padding: 0 22px;
+  }
+  .logo { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 20px; letter-spacing: -0.02em; color: var(--text); }
+  .logo-mark {
+    width: 28px; height: 28px; border-radius: 8px;
+    background: linear-gradient(135deg, var(--accent), #38a8f0);
+    display: grid; place-items: center; color: #fff; font-size: 14px; font-weight: 700;
+  }
+  .nav-links { display: flex; gap: 22px; font-size: 12px; color: var(--text); font-weight: 400; flex: 1; margin-left: 32px; }
+  .nav-links a { opacity: 0.88; transition: opacity 0.2s; color: var(--text); }
+  .nav-links a:hover { opacity: 1; text-decoration: none; }
+  .lang-switch { display: flex; gap: 8px; font-size: 11px; font-weight: 500; }
+  .lang-switch a { color: var(--text-muted); opacity: 0.7; }
+  .lang-switch a.active { color: var(--accent); opacity: 1; font-weight: 600; }
+
+  /* ---------- Content ---------- */
+  .legal-content {
+    padding: 80px 0 60px;
+  }
+  .legal-content h1 {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1.1;
+    margin-bottom: 8px;
+  }
+  .legal-content .update-date {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 48px;
+  }
+  .legal-content .note {
+    background: var(--bg-soft);
+    padding: 12px 16px;
+    border-left: 3px solid var(--accent);
+    margin-bottom: 32px;
+    font-size: 14px;
+  }
+  .legal-content h2 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin-top: 42px;
+    margin-bottom: 16px;
+  }
+  .legal-content h3 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin-top: 28px;
+    margin-bottom: 12px;
+  }
+  .legal-content p {
+    margin-bottom: 16px;
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .legal-content ul {
+    margin-left: 20px;
+    margin-bottom: 16px;
+  }
+  .legal-content li {
+    margin-bottom: 8px;
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .legal-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+  }
+  .legal-content table th,
+  .legal-content table td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  .legal-content table th {
+    background: var(--bg-soft);
+    font-weight: 600;
+  }
+  .legal-content strong {
+    font-weight: 600;
+  }
+  .legal-content .highlight {
+    background: var(--bg-soft);
+    padding: 16px;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+
+  /* ---------- Footer ---------- */
+  footer {
+    background: var(--bg-soft);
+    padding: 40px 0;
+    font-size: 12px;
+    color: var(--text-muted);
+    border-top: 1px solid var(--line);
+  }
+  .footer-inner {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;
+  }
+  .footer-links { display: flex; gap: 22px; flex-wrap: wrap; }
+  .footer-links a { color: var(--text-muted); }
+  .footer-links a:hover { color: var(--text); text-decoration: underline; }
+
+  @media (max-width: 768px) {
+    .nav-links { gap: 12px; font-size: 11px; margin-left: 16px; }
+    .legal-content h1 { font-size: 32px; }
+    .legal-content h2 { font-size: 20px; }
+    .footer-inner { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="/en/">
+      <span class="logo-mark">G</span>
+      <span>Geninho</span>
+    </a>
+    <div class="nav-links">
+      <a href="/en/#responsible">Responsible</a>
+      <a href="/en/#students">Students</a>
+      <a href="/en/#geninho">Geninho</a>
+      <a href="/en/#features">Features</a>
+      <a href="/en/#plans">Plans</a>
+    </div>
+    <div class="lang-switch" aria-label="Idioma / Language / Idioma">
+      <a href="/privacidade/" hreflang="pt-BR" lang="pt-BR">PT</a>
+      <a href="/en/privacy/" class="active" hreflang="en" lang="en">EN</a>
+      <a href="/es/privacidad/" hreflang="es" lang="es">ES</a>
+    </div>
+  </div>
+</nav>
+
+<section class="legal-content">
+  <div class="container">
+    <h1>Privacy Policy — Geninho</h1>
+    <div class="update-date"><strong>Last updated:</strong> April 21, 2026</div>
+    <div class="note">This is a courtesy translation of the original Portuguese document. In case of any discrepancy, the <a href="/privacidade/">Portuguese version</a> prevails. <strong>A note for international users:</strong> This app is developed and operated from Brazil. Users outside Brazil are welcome; we respond to data-subject requests under applicable privacy laws in good faith, but the controlling legal framework for data processing is Brazilian law.</div>
+
+    <h2>1. Who we are and the purpose of this Policy</h2>
+    <p><strong>Geninho</strong> is an iOS educational-support app for Brazilian families, focused on school organization, AI-powered study plans, and quiz-validated session completion.</p>
+    <p>This Policy describes, in plain language, <strong>what data we process, why we process it, who we share it with, and what rights you have</strong> as a data subject, in accordance with the <strong>Brazilian General Data Protection Law (LGPD, Federal Law No. 13,709/2018)</strong> and App Store requirements.</p>
+    <p><strong>Data controller:</strong></p>
+    <ul>
+      <li>Responsible party: <strong>Pablo Rodrigo (independent developer)</strong></li>
+      <li>Jurisdiction: Recife/PE — Brazil</li>
+      <li>Contact channel for privacy, LGPD, and security matters: <a href="mailto:suporte@geninho.app.br"><strong>suporte@geninho.app.br</strong></a></li>
+    </ul>
+    <p>Additional identification details (ID document and full address) may be provided upon a formal, well-founded request under the LGPD, through the contact channel above.</p>
+
+    <h2>2. Principles we follow</h2>
+    <ul>
+      <li><strong>Minimization:</strong> we only collect what is necessary to operate the service.</li>
+      <li><strong>Specific purpose:</strong> every piece of data is used for a stated purpose.</li>
+      <li><strong>Transparency:</strong> this Policy lists our vendors and the types of data involved.</li>
+      <li><strong>Security by default:</strong> data in transit and at rest relies on the protections offered by the providers listed in section 6.</li>
+      <li><strong>Parental control:</strong> child profiles are created and managed only by a guardian with an account linked to the same family.</li>
+    </ul>
+
+    <h2>3. Data we process</h2>
+
+    <h3>3.1 Authentication data (guardian)</h3>
+    <ul>
+      <li>email;</li>
+      <li>display name (when provided by the identity provider);</li>
+      <li>technical account identifiers (Firebase Auth UID, Apple Sign-In identifier, Google account ID when applicable);</li>
+      <li>Apple's anonymous relay email, when the user chooses "Hide my email".</li>
+    </ul>
+    <p><strong>Biometrics (Face ID / Touch ID)</strong> are processed exclusively on the device by iOS. Geninho <strong>does not receive or transmit biometric data</strong> — only the boolean "authenticated / not authenticated" result.</p>
+
+    <h3>3.2 Family and child data</h3>
+    <ul>
+      <li>family name;</li>
+      <li>user roles (<code>ownerParent</code>, <code>parent</code>, <code>child</code>);</li>
+      <li>relationships between guardians and children;</li>
+      <li>for each child: name, school year/grade, study settings (time window, duration, minimum quiz passing percentage, YouTube permission), coins, streak, and achievements.</li>
+    </ul>
+    <p>Children <strong>do not create accounts on their own</strong>. Profiles are created by a guardian, who holds the relationship and is responsible for the minor's data (see section 9).</p>
+
+    <h3>3.3 School and pedagogical data</h3>
+    <ul>
+      <li>registered school(s) and periods;</li>
+      <li>class schedule per child (subject, day, time);</li>
+      <li>school-year plan (subjects, topics);</li>
+      <li>exams/activities (subject, date, topics, score when entered);</li>
+      <li>study sessions generated, whether completed or not;</li>
+      <li>quiz results (percentage correct, attempts, question feedback);</li>
+      <li>adaptive profile per child (best study windows, mastery by subject/topic).</li>
+    </ul>
+
+    <h3>3.4 AI-generated data</h3>
+    <ul>
+      <li>text extracted by OCR from the images/PDFs you import (schedule, exam calendar);</li>
+      <li>questions the child sends to <strong>Geninho's free chat</strong> (Premium);</li>
+      <li>AI-generated responses;</li>
+      <li><strong>automated classification</strong> of the question (normal, direct request for answer keys, inappropriate content, suspicious) and reason, when applicable;</li>
+      <li>questions classified as <code>direct_homework</code>, <code>inappropriate</code>, or <code>suspicious</code> are made available to the family's guardian for review (collection <code>flaggedQuestions</code>).</li>
+    </ul>
+
+    <h3>3.5 Usage and subscription data</h3>
+    <ul>
+      <li>monthly usage counters (AI plans generated, chat questions) to enforce plan limits;</li>
+      <li>total counters (OCR imports);</li>
+      <li>StoreKit transaction identifier and subscription product (<code>com.geninho.app.premium.monthly</code> / <code>.yearly</code>) — <strong>we do not receive card data</strong>; billing is handled entirely by Apple.</li>
+    </ul>
+
+    <h3>3.6 Technical and advertising data (free plan only)</h3>
+    <ul>
+      <li>In the free version, we display <strong>Google AdMob</strong> ads. Before requesting personalized ads, we ask for your consent through Apple's native <strong>App Tracking Transparency (ATT)</strong> prompt.</li>
+      <li>If you <strong>allow</strong> tracking, AdMob may use the IDFA (Apple's advertising identifier) to show more relevant ads.</li>
+      <li>If you <strong>do not allow</strong> it, AdMob shows only non-personalized ads and the IDFA is not shared.</li>
+      <li>Geninho does <strong>not</strong> collect the IDFA for any purpose beyond serving ads through AdMob.</li>
+    </ul>
+
+    <h3>3.7 Notifications</h3>
+    <p>The app uses <strong>local notifications only</strong> (study reminders, upcoming exams, achievements). We do not use push services and do not send device tokens to external servers.</p>
+
+    <h2>4. Purposes and legal bases (LGPD art. 7)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Purpose</th>
+          <th>Data used</th>
+          <th>Legal basis</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Create and authenticate account</td>
+          <td>email, provider identifiers</td>
+          <td>Performance of a contract</td>
+        </tr>
+        <tr>
+          <td>Organize school routine</td>
+          <td>data from 3.2, 3.3</td>
+          <td>Performance of a contract</td>
+        </tr>
+        <tr>
+          <td>Generate AI study plans and quizzes</td>
+          <td>3.3 and 3.4</td>
+          <td>Performance of a contract</td>
+        </tr>
+        <tr>
+          <td>Validate study session via quiz</td>
+          <td>3.3, 3.4</td>
+          <td>Performance of a contract</td>
+        </tr>
+        <tr>
+          <td>Enforce Free plan limits and charge Premium</td>
+          <td>3.5</td>
+          <td>Performance of a contract</td>
+        </tr>
+        <tr>
+          <td>Chat moderation and child safety</td>
+          <td>3.4</td>
+          <td>Legitimate interest + best interest of the child</td>
+        </tr>
+        <tr>
+          <td>Display ads on the free plan</td>
+          <td>3.6</td>
+          <td>Consent (ATT)</td>
+        </tr>
+        <tr>
+          <td>Prevent fraud and ensure security</td>
+          <td>operational logs</td>
+          <td>Legitimate interest</td>
+        </tr>
+        <tr>
+          <td>Comply with legal obligations</td>
+          <td>when required</td>
+          <td>Compliance with a legal obligation</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>5. Your rights (LGPD art. 18)</h2>
+    <p>You may exercise the following rights at any time:</p>
+    <ol>
+      <li>confirmation of whether we process your data;</li>
+      <li>access to your data;</li>
+      <li>correction of incomplete, inaccurate, or outdated data;</li>
+      <li>anonymization, blocking, or deletion of unnecessary or excessive data;</li>
+      <li>data portability;</li>
+      <li>deletion of data processed based on consent;</li>
+      <li>information about who we share data with;</li>
+      <li>information about the possibility of not providing consent and the consequences;</li>
+      <li>revocation of consent.</li>
+    </ol>
+    <p><strong>Channel to exercise your rights:</strong> <a href="mailto:suporte@geninho.app.br">suporte@geninho.app.br</a>. We will respond within <strong>15 business days</strong>, per LGPD art. 19.</p>
+
+    <h2>6. Data retention and deletion</h2>
+    <ul>
+      <li>Family, child, and study data are retained <strong>while the account is active</strong>.</li>
+      <li>Usage records and plan limits are retained as long as necessary to operate the Free and Premium plans.</li>
+      <li><strong>Account deletion:</strong> available from within the app ("More" → delete account) or by email to <a href="mailto:suporte@geninho.app.br">suporte@geninho.app.br</a>. After a request, personally identifiable data is removed from active systems within <strong>30 days</strong>, subject to legal obligations and backup technical limitations.</li>
+      <li>Subscription transaction records may be retained for the applicable legal period (tax/consumer law) even after account deletion.</li>
+    </ul>
+
+    <h2>7. Contact</h2>
+    <ul>
+      <li>Privacy / LGPD email: <a href="mailto:suporte@geninho.app.br"><strong>suporte@geninho.app.br</strong></a></li>
+      <li>Data protection officer: the contact channel above handles requests under the LGPD. Since this is a small-scale operation run by an independent developer, the flexible treatment provided in ANPD Resolution CD/ANPD No. 2/2022 for small data-processing agents applies.</li>
+    </ul>
+
+    <div class="highlight">
+      <p><strong>Quick visual summary (does not replace the full text):</strong></p>
+      <ul>
+        <li>We don't sell data.</li>
+        <li>We use Firebase, OpenAI/Gemini/Azure, AdMob, and Apple/Google to run the service.</li>
+        <li>OCR runs on your iPhone; only the extracted text goes to the AI.</li>
+        <li>Children don't create accounts alone — a guardian always does.</li>
+        <li>You can delete your account and request a copy of your data at any time.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <span>© 2026 Geninho — Pablo Rodrigo (independent developer), Recife/PE, Brazil</span>
+    <div class="footer-links">
+      <a href="/en/terms/">Terms</a>
+      <a href="/en/privacy/">Privacy</a>
+      <a href="/en/transparency/">Transparency</a>
+      <a href="mailto:suporte@geninho.app.br">suporte@geninho.app.br</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

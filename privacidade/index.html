@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Política de Privacidade — Geninho, app de estudos com IA para famílias."/>
+<link rel="canonical" href="https://geninho.app.br/privacidade/"/>
+<meta property="og:title" content="Política de Privacidade — Geninho"/>
+<meta property="og:description" content="Leia a Política de Privacidade do Geninho e entenda como seus dados são protegidos."/>
+<meta property="og:url" content="https://geninho.app.br/privacidade/"/>
+<meta name="robots" content="index, follow"/>
+<title>Política de Privacidade — Geninho</title>
+<style>
+  :root {
+    --bg: #fbfbfd;
+    --bg-soft: #f5f5f7;
+    --text: #1d1d1f;
+    --text-muted: #6e6e73;
+    --accent: #2563EB;
+    --line: rgba(0,0,0,0.08);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.47059;
+    letter-spacing: -0.015em;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .container { width: 100%; max-width: 1024px; margin: 0 auto; padding: 0 22px; }
+
+  /* ---------- Nav ---------- */
+  .nav {
+    position: sticky; top: 0; z-index: 50;
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    background: rgba(251, 251, 253, 0.8);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-inner {
+    display: flex; align-items: center; justify-content: space-between;
+    height: 48px; max-width: 1024px; margin: 0 auto; padding: 0 22px;
+  }
+  .logo { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 20px; letter-spacing: -0.02em; color: var(--text); }
+  .logo-mark {
+    width: 28px; height: 28px; border-radius: 8px;
+    background: linear-gradient(135deg, var(--accent), #38a8f0);
+    display: grid; place-items: center; color: #fff; font-size: 14px; font-weight: 700;
+  }
+  .nav-links { display: flex; gap: 22px; font-size: 12px; color: var(--text); font-weight: 400; flex: 1; margin-left: 32px; }
+  .nav-links a { opacity: 0.88; transition: opacity 0.2s; color: var(--text); }
+  .nav-links a:hover { opacity: 1; text-decoration: none; }
+  .lang-switch { display: flex; gap: 8px; font-size: 11px; font-weight: 500; }
+  .lang-switch a { color: var(--text-muted); opacity: 0.7; }
+  .lang-switch a.active { color: var(--accent); opacity: 1; font-weight: 600; }
+
+  /* ---------- Content ---------- */
+  .legal-content {
+    padding: 80px 0 60px;
+  }
+  .legal-content h1 {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1.1;
+    margin-bottom: 8px;
+  }
+  .legal-content .update-date {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 48px;
+  }
+  .legal-content h2 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin-top: 42px;
+    margin-bottom: 16px;
+  }
+  .legal-content h3 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin-top: 28px;
+    margin-bottom: 12px;
+  }
+  .legal-content p {
+    margin-bottom: 16px;
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .legal-content ul {
+    margin-left: 20px;
+    margin-bottom: 16px;
+  }
+  .legal-content li {
+    margin-bottom: 8px;
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .legal-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+  }
+  .legal-content table th,
+  .legal-content table td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  .legal-content table th {
+    background: var(--bg-soft);
+    font-weight: 600;
+  }
+  .legal-content strong {
+    font-weight: 600;
+  }
+  .legal-content .highlight {
+    background: var(--bg-soft);
+    padding: 16px;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+
+  /* ---------- Footer ---------- */
+  footer {
+    background: var(--bg-soft);
+    padding: 40px 0;
+    font-size: 12px;
+    color: var(--text-muted);
+    border-top: 1px solid var(--line);
+  }
+  .footer-inner {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;
+  }
+  .footer-links { display: flex; gap: 22px; flex-wrap: wrap; }
+  .footer-links a { color: var(--text-muted); }
+  .footer-links a:hover { color: var(--text); text-decoration: underline; }
+
+  @media (max-width: 768px) {
+    .nav-links { gap: 12px; font-size: 11px; margin-left: 16px; }
+    .legal-content h1 { font-size: 32px; }
+    .legal-content h2 { font-size: 20px; }
+    .footer-inner { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="/">
+      <span class="logo-mark">G</span>
+      <span>Geninho</span>
+    </a>
+    <div class="nav-links">
+      <a href="/#responsaveis">Responsáveis</a>
+      <a href="/#estudantes">Estudantes</a>
+      <a href="/#geninho">Geninho</a>
+      <a href="/#funcionalidades">Funcionalidades</a>
+      <a href="/#planos">Planos</a>
+    </div>
+    <div class="lang-switch" aria-label="Idioma / Language / Idioma">
+      <a href="/privacidade/" class="active" hreflang="pt-BR" lang="pt-BR">PT</a>
+      <a href="/en/privacy/" hreflang="en" lang="en">EN</a>
+      <a href="/es/privacidad/" hreflang="es" lang="es">ES</a>
+    </div>
+  </div>
+</nav>
+
+<section class="legal-content">
+  <div class="container">
+    <h1>Política de Privacidade — Geninho</h1>
+    <div class="update-date"><strong>Última atualização:</strong> 21 de abril de 2026</div>
+
+    <h2>1. Quem somos e finalidade desta Política</h2>
+    <p>O <strong>Geninho</strong> é um aplicativo iOS de apoio educacional para famílias brasileiras, focado em organização escolar, plano de estudos com IA e validação de conclusão por quiz.</p>
+    <p>Esta Política descreve, em linguagem clara, <strong>quais dados tratamos, por que tratamos, com quem compartilhamos e quais direitos você tem</strong> como titular, em conformidade com a <strong>Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018 — LGPD)</strong> e com as exigências da App Store.</p>
+    <p><strong>Controlador dos dados:</strong></p>
+    <ul>
+      <li>Responsável: <strong>Pablo Rodrigo (desenvolvedor independente)</strong></li>
+      <li>Jurisdição: Recife/PE — Brasil</li>
+      <li>Canal de contato para privacidade, LGPD e segurança: <a href="mailto:suporte@geninho.app.br"><strong>suporte@geninho.app.br</strong></a></li>
+    </ul>
+    <p>Dados de identificação adicionais (documento e endereço completo) podem ser fornecidos mediante solicitação formal e fundamentada, nos termos da LGPD, através do canal de contato acima.</p>
+
+    <h2>2. Princípios que adotamos</h2>
+    <ul>
+      <li><strong>Minimização:</strong> coletamos somente o necessário para o funcionamento do serviço.</li>
+      <li><strong>Finalidade específica:</strong> cada dado é usado para um propósito informado.</li>
+      <li><strong>Transparência:</strong> esta Política lista os fornecedores e os tipos de dado.</li>
+      <li><strong>Segurança por padrão:</strong> dados em trânsito e em repouso utilizam as proteções dos provedores listados na seção 6.</li>
+      <li><strong>Controle parental:</strong> perfis de crianças são criados e gerenciados apenas por um responsável com conta vinculada à mesma família.</li>
+    </ul>
+
+    <h2>3. Dados que tratamos</h2>
+
+    <h3>3.1 Dados de autenticação (responsável)</h3>
+    <ul>
+      <li>e-mail;</li>
+      <li>nome de exibição (quando fornecido pelo provedor);</li>
+      <li>identificadores técnicos das contas (Firebase Auth UID, Apple Sign-In identifier, Google account ID quando aplicável);</li>
+      <li>e-mail anônimo de relay da Apple, quando o usuário opta por "Ocultar meu e-mail".</li>
+    </ul>
+    <p><strong>Biometria (Face ID / Touch ID)</strong> é processada exclusivamente no dispositivo pelo iOS. O Geninho <strong>não recebe nem transmite dados biométricos</strong> — apenas o resultado booleano "autenticou / não autenticou".</p>
+
+    <h3>3.2 Dados de família e crianças</h3>
+    <ul>
+      <li>nome da família;</li>
+      <li>papel dos usuários (<code>ownerParent</code>, <code>parent</code>, <code>child</code>);</li>
+      <li>vínculos entre responsáveis e crianças;</li>
+      <li>para cada criança: nome, ano/série escolar, configurações de estudo (janela de horário, duração, percentual mínimo de acerto no quiz, permissão de YouTube), moedas, streak e conquistas.</li>
+    </ul>
+    <p>Crianças <strong>não criam conta sozinhas</strong>. O perfil é criado pelo responsável, que é titular do vínculo e responde pelos dados do menor (ver seção 9).</p>
+
+    <h3>3.3 Dados escolares e pedagógicos</h3>
+    <ul>
+      <li>escola(s) cadastrada(s) e períodos;</li>
+      <li>grade de aulas por criança (matéria, dia, horário);</li>
+      <li>plano do ano escolar (matérias, assuntos);</li>
+      <li>provas/atividades (matéria, data, tópicos, nota quando informada);</li>
+      <li>sessões de estudo geradas, concluídas ou não;</li>
+      <li>resultados de quiz (percentual de acerto, tentativas, feedback sobre questões);</li>
+      <li>perfil adaptativo por criança (melhores janelas de estudo, mastery por matéria/tópico).</li>
+    </ul>
+
+    <h3>3.4 Dados gerados por IA</h3>
+    <ul>
+      <li>texto extraído por OCR de imagens/PDFs que você importa (grade, calendário de provas);</li>
+      <li>perguntas enviadas pela criança ao <strong>chat livre do Geninho</strong> (Premium);</li>
+      <li>respostas geradas por IA;</li>
+      <li><strong>classificação automatizada</strong> da pergunta (normal, pedido direto de gabarito, conteúdo inapropriado, suspeita) e razão, quando aplicável;</li>
+      <li>perguntas classificadas como <code>direct_homework</code>, <code>inappropriate</code> ou <code>suspicious</code> ficam acessíveis ao responsável da família para revisão (coleção <code>flaggedQuestions</code>).</li>
+    </ul>
+
+    <h3>3.5 Dados de uso e assinatura</h3>
+    <ul>
+      <li>contadores mensais de uso (planos de IA gerados, perguntas ao chat) para aplicar limites de plano;</li>
+      <li>contadores totais (importações por OCR);</li>
+      <li>identificador da transação de StoreKit e produto da assinatura (<code>com.geninho.app.premium.monthly</code> / <code>.yearly</code>) — <strong>não recebemos dados de cartão</strong>; a cobrança é 100% da Apple.</li>
+    </ul>
+
+    <h3>3.6 Dados técnicos e de publicidade (apenas plano gratuito)</h3>
+    <ul>
+      <li>Na versão gratuita, exibimos anúncios do <strong>Google AdMob</strong>. Antes de solicitar anúncios personalizados, pedimos seu consentimento através do prompt nativo da Apple (<strong>App Tracking Transparency — ATT</strong>).</li>
+      <li>Se você <strong>autorizar</strong> o rastreamento, o AdMob pode usar o IDFA (identificador de publicidade da Apple) para exibir anúncios mais relevantes.</li>
+      <li>Se você <strong>não autorizar</strong>, o AdMob exibe apenas anúncios não personalizados, e o IDFA não é compartilhado.</li>
+      <li>O Geninho <strong>não</strong> coleta IDFA para nenhum propósito além da exibição de anúncios no AdMob.</li>
+    </ul>
+
+    <h3>3.7 Notificações</h3>
+    <p>O app usa <strong>apenas notificações locais</strong> (lembretes de estudo, provas próximas, conquistas). Não utilizamos serviço de push nem enviamos tokens de dispositivo a servidores externos.</p>
+
+    <h2>4. Finalidades e bases legais (LGPD art. 7)</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Finalidade</th>
+          <th>Dados utilizados</th>
+          <th>Base legal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Criar e autenticar conta</td>
+          <td>e-mail, identificadores de provedor</td>
+          <td>Execução de contrato</td>
+        </tr>
+        <tr>
+          <td>Organizar rotina escolar</td>
+          <td>dados de 3.2, 3.3</td>
+          <td>Execução de contrato</td>
+        </tr>
+        <tr>
+          <td>Gerar plano de estudos e quizzes com IA</td>
+          <td>3.3 e 3.4</td>
+          <td>Execução de contrato</td>
+        </tr>
+        <tr>
+          <td>Validar sessão de estudo por quiz</td>
+          <td>3.3, 3.4</td>
+          <td>Execução de contrato</td>
+        </tr>
+        <tr>
+          <td>Aplicar limites do plano Free e cobrar Premium</td>
+          <td>3.5</td>
+          <td>Execução de contrato</td>
+        </tr>
+        <tr>
+          <td>Moderação de chat e segurança de menor</td>
+          <td>3.4</td>
+          <td>Legítimo interesse + proteção do melhor interesse da criança</td>
+        </tr>
+        <tr>
+          <td>Exibir anúncios no plano gratuito</td>
+          <td>3.6</td>
+          <td>Consentimento (ATT)</td>
+        </tr>
+        <tr>
+          <td>Prevenir fraude e garantir segurança</td>
+          <td>logs operacionais</td>
+          <td>Legítimo interesse</td>
+        </tr>
+        <tr>
+          <td>Cumprir obrigações legais</td>
+          <td>quando exigido</td>
+          <td>Cumprimento de obrigação legal</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>5. Processamento de imagens e IA</h2>
+
+    <h3>5.1 OCR</h3>
+    <p>A extração de texto das imagens/PDFs importados é feita <strong>no próprio dispositivo</strong>, usando o framework Vision da Apple. As imagens <strong>não</strong> são enviadas para nossos servidores nem para provedores de IA.</p>
+
+    <h3>5.2 Envio de texto à IA</h3>
+    <p>Após o OCR, <strong>apenas o texto extraído</strong> (não a imagem) pode ser enviado a provedores de IA (ver seção 6) para estruturação em aulas, provas e assuntos. Recomendamos revisar os resultados antes de confirmar — IA pode cometer erros.</p>
+
+    <h3>5.3 Chat com o Geninho</h3>
+    <p>Perguntas feitas ao chat livre (Premium) e as respostas geradas trafegam pelo provedor de IA contratado. Não usamos essas conversas para treinar modelos de IA; os provedores listados na seção 6 têm cláusulas contratuais de não-treinamento para dados de API.</p>
+
+    <h3>5.4 Consentimento obrigatório antes do envio a provedores de IA</h3>
+    <p>Antes do primeiro uso de qualquer recurso que dependa de IA na nuvem (geração de plano, OCR estruturado, quiz, chat), o app apresenta a tela <strong>"Uso de Inteligência Artificial"</strong> listando:</p>
+    <ul>
+      <li><strong>Quais dados serão enviados</strong> — textos extraídos de fotos/PDFs, matérias e tópicos cadastrados, perguntas do chat e contexto pedagógico.</li>
+      <li><strong>Para quem</strong> — OpenAI, Inc. (EUA), Google LLC (EUA) e, quando configurado, Microsoft Corporation (Azure OpenAI).</li>
+      <li><strong>O que garantimos</strong> — os provedores são contratualmente proibidos de treinar modelos com seus dados; não enviamos dados financeiros, senhas, localização ou identificadores pessoais além do necessário.</li>
+    </ul>
+    <p>O usuário precisa tocar <strong>"Aceitar e continuar"</strong> para liberar os recursos de IA. Se escolher <strong>"Continuar sem IA"</strong>, o app segue funcionando com recursos locais (horário, provas, lembretes, conquistas) e os chamados à nuvem ficam bloqueados. A preferência pode ser revista a qualquer momento em <strong>Mais → Preferências de IA</strong>. Enquanto não houver aceite, <strong>nenhum dado pessoal é enviado aos provedores de IA</strong>.</p>
+
+    <h2>6. Operadores e fornecedores (com quem compartilhamos dados)</h2>
+    <p>Compartilhamos dados <strong>apenas com os fornecedores estritamente necessários</strong> à operação do serviço:</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Fornecedor</th>
+          <th>Papel</th>
+          <th>Dados tratados</th>
+          <th>Local de processamento</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Google / Firebase</strong></td>
+          <td>Autenticação e banco de dados</td>
+          <td>Todos os dados das seções 3.1 a 3.5</td>
+          <td>EUA / multi-região</td>
+        </tr>
+        <tr>
+          <td><strong>Apple</strong></td>
+          <td>Login e cobrança</td>
+          <td>Identificador Apple, transação de assinatura</td>
+          <td>EUA</td>
+        </tr>
+        <tr>
+          <td><strong>Google</strong></td>
+          <td>Login opcional</td>
+          <td>e-mail, identificador Google</td>
+          <td>EUA</td>
+        </tr>
+        <tr>
+          <td><strong>OpenAI</strong></td>
+          <td>IA</td>
+          <td>Texto de 3.3 e 3.4</td>
+          <td>EUA</td>
+        </tr>
+        <tr>
+          <td><strong>Google Gemini</strong></td>
+          <td>Fallback de IA</td>
+          <td>Idem</td>
+          <td>EUA</td>
+        </tr>
+        <tr>
+          <td><strong>Azure OpenAI</strong></td>
+          <td>Provedor alternativo</td>
+          <td>Idem</td>
+          <td>EUA / UE</td>
+        </tr>
+        <tr>
+          <td><strong>Google AdMob</strong></td>
+          <td>Anúncios (plano gratuito)</td>
+          <td>3.6</td>
+          <td>EUA</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Os fornecedores acima atuam como <strong>operadores</strong> (art. 5º, VII da LGPD) sob instrução do Geninho. Não vendemos dados pessoais e não os compartilhamos para finalidades de marketing de terceiros.</p>
+
+    <h3>Transferência internacional</h3>
+    <p>Os dados podem ser tratados em servidores localizados fora do Brasil (principalmente EUA). Os fornecedores listados adotam cláusulas contratuais e salvaguardas compatíveis com o art. 33 da LGPD.</p>
+
+    <h2>7. Retenção e exclusão</h2>
+    <ul>
+      <li>Dados da família, das crianças e de estudos são mantidos <strong>enquanto a conta estiver ativa</strong>.</li>
+      <li>Registros de uso e limites de plano são mantidos pelo ciclo necessário para operar os planos Free e Premium.</li>
+      <li><strong>Exclusão da conta:</strong> disponível pelo próprio app ("Mais" → excluir conta) ou por e-mail a <a href="mailto:suporte@geninho.app.br">suporte@geninho.app.br</a>. Após a solicitação, dados pessoais identificáveis são removidos dos sistemas ativos em até <strong>30 dias</strong>, observadas as obrigações legais e limitações técnicas de backups.</li>
+      <li>Registros de transações de assinatura podem ser mantidos pelo prazo legal aplicável (fiscal/consumerista) mesmo após a exclusão da conta.</li>
+    </ul>
+
+    <h2>8. Segurança</h2>
+    <ul>
+      <li>Conexões via HTTPS/TLS para todos os fornecedores.</li>
+      <li>Credenciais de API <strong>nunca</strong> embarcadas em repositório público (armazenadas em <code>Config.xcconfig</code> local).</li>
+      <li>Separação de permissões por papel (responsável x criança).</li>
+      <li>Autenticação via provedores reconhecidos (Apple, Google, Firebase Auth).</li>
+      <li>Biometria opcional para desbloquear o app no dispositivo.</li>
+      <li>Revisão periódica de dependências e boas práticas.</li>
+    </ul>
+    <p>Apesar dos controles, nenhum sistema é 100% imune. Ao identificar um incidente relevante que possa gerar risco a titulares, seguiremos os procedimentos previstos na LGPD (art. 48) e comunicaremos a ANPD e os titulares afetados quando aplicável.</p>
+
+    <h2>9. Dados de crianças e adolescentes (LGPD art. 14)</h2>
+    <ul>
+      <li>O Geninho é destinado a <strong>famílias</strong>, com perfis de crianças criados e operados <strong>pelo responsável</strong>.</li>
+      <li>A base legal para tratar dados de menores é o <strong>melhor interesse da criança</strong>, mediante consentimento específico e em destaque do responsável no momento do cadastro do perfil.</li>
+      <li>O responsável tem acesso a: dados cadastrais da criança, progresso escolar, perguntas feitas ao chat e itens classificados para revisão.</li>
+      <li>Não exigimos mais dados da criança do que o necessário para a rotina escolar e o apoio pedagógico.</li>
+      <li>O chat livre possui <strong>classificação automatizada</strong> que bloqueia conteúdo inapropriado e sinaliza pedidos de gabarito direto.</li>
+      <li>O responsável pode, a qualquer momento, remover o perfil da criança no app.</li>
+    </ul>
+
+    <h2>10. Seus direitos (LGPD art. 18)</h2>
+    <p>Você pode exercer, a qualquer momento, os seguintes direitos:</p>
+    <ol>
+      <li>confirmação da existência de tratamento;</li>
+      <li>acesso aos dados;</li>
+      <li>correção de dados incompletos, inexatos ou desatualizados;</li>
+      <li>anonimização, bloqueio ou eliminação de dados desnecessários ou excessivos;</li>
+      <li>portabilidade dos dados;</li>
+      <li>eliminação dos dados tratados com base em consentimento;</li>
+      <li>informação sobre com quem compartilhamos dados;</li>
+      <li>informação sobre a possibilidade de não fornecer consentimento e suas consequências;</li>
+      <li>revogação do consentimento.</li>
+    </ol>
+    <p><strong>Canal para exercer direitos:</strong> <a href="mailto:suporte@geninho.app.br">suporte@geninho.app.br</a>. Responderemos em até <strong>15 dias</strong> corridos, conforme art. 19 da LGPD.</p>
+
+    <h2>11. Conteúdo gerado por IA — limitações</h2>
+    <ul>
+      <li>Planos de estudo, quizzes e respostas do chat são apoios pedagógicos e <strong>podem conter erros ou imprecisões</strong>.</li>
+      <li>O conteúdo não substitui professor, escola ou material didático oficial.</li>
+      <li>Use a IA como ponto de partida; sempre revise com senso crítico.</li>
+    </ul>
+
+    <h2>12. Publicidade e rastreamento</h2>
+    <ul>
+      <li>O plano Free exibe anúncios via Google AdMob.</li>
+      <li>Pedimos seu consentimento para rastreamento via prompt nativo do iOS (App Tracking Transparency).</li>
+      <li>Sua resposta à ATT pode ser alterada a qualquer momento em <strong>Ajustes → Privacidade e Segurança → Rastreamento</strong>.</li>
+      <li>O plano Premium é <strong>totalmente livre de anúncios</strong>.</li>
+    </ul>
+
+    <h2>13. Atualizações desta Política</h2>
+    <p>Podemos revisar esta Política para refletir mudanças legais, técnicas ou de produto. A versão vigente fica disponível dentro do app (tela <strong>Documentos Legais</strong>) e neste repositório. Alterações materiais serão comunicadas por canal apropriado (aviso no app ou e-mail).</p>
+
+    <h2>14. Contato</h2>
+    <ul>
+      <li>E-mail de privacidade / LGPD: <a href="mailto:suporte@geninho.app.br"><strong>suporte@geninho.app.br</strong></a></li>
+      <li>Encarregado pelo tratamento de dados: o canal de contato acima atende às solicitações previstas na LGPD. Por se tratar de operação de pequeno porte conduzida por desenvolvedor independente, aplica-se o tratamento flexibilizado previsto na Resolução CD/ANPD nº 2/2022 para agentes de tratamento de pequeno porte.</li>
+    </ul>
+
+    <div class="highlight">
+      <p><strong>Resumo visual rápido (não substitui o texto completo):</strong></p>
+      <ul>
+        <li>Não vendemos dados.</li>
+        <li>Usamos Firebase, OpenAI/Gemini/Azure, AdMob e Apple/Google para funcionar.</li>
+        <li>OCR roda no seu iPhone; só o texto extraído vai para a IA.</li>
+        <li>Criança não cria conta sozinha — sempre um responsável.</li>
+        <li>Você pode excluir sua conta e pedir cópia dos dados a qualquer momento.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <span>© 2026 Geninho — Pablo Rodrigo (desenvolvedor independente), Recife/PE</span>
+    <div class="footer-links">
+      <a href="/termos/">Termos</a>
+      <a href="/privacidade/">Privacidade</a>
+      <a href="/transparencia/">Transparência</a>
+      <a href="mailto:suporte@geninho.app.br">suporte@geninho.app.br</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

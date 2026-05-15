@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="Termos de Uso — Geninho, app de estudos com IA para famílias."/>
+<link rel="canonical" href="https://geninho.app.br/termos/"/>
+<meta property="og:title" content="Termos de Uso — Geninho"/>
+<meta property="og:description" content="Leia os Termos de Uso do Geninho, app de organização escolar e estudos com IA."/>
+<meta property="og:url" content="https://geninho.app.br/termos/"/>
+<meta name="robots" content="index, follow"/>
+<title>Termos de Uso — Geninho</title>
+<style>
+  :root {
+    --bg: #fbfbfd;
+    --bg-soft: #f5f5f7;
+    --text: #1d1d1f;
+    --text-muted: #6e6e73;
+    --accent: #2563EB;
+    --line: rgba(0,0,0,0.08);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.47059;
+    letter-spacing: -0.015em;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .container { width: 100%; max-width: 1024px; margin: 0 auto; padding: 0 22px; }
+
+  /* ---------- Nav ---------- */
+  .nav {
+    position: sticky; top: 0; z-index: 50;
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    background: rgba(251, 251, 253, 0.8);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-inner {
+    display: flex; align-items: center; justify-content: space-between;
+    height: 48px; max-width: 1024px; margin: 0 auto; padding: 0 22px;
+  }
+  .logo { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 20px; letter-spacing: -0.02em; color: var(--text); }
+  .logo-mark {
+    width: 28px; height: 28px; border-radius: 8px;
+    background: linear-gradient(135deg, var(--accent), #38a8f0);
+    display: grid; place-items: center; color: #fff; font-size: 14px; font-weight: 700;
+  }
+  .nav-links { display: flex; gap: 22px; font-size: 12px; color: var(--text); font-weight: 400; flex: 1; margin-left: 32px; }
+  .nav-links a { opacity: 0.88; transition: opacity 0.2s; color: var(--text); }
+  .nav-links a:hover { opacity: 1; text-decoration: none; }
+  .lang-switch { display: flex; gap: 8px; font-size: 11px; font-weight: 500; }
+  .lang-switch a { color: var(--text-muted); opacity: 0.7; }
+  .lang-switch a.active { color: var(--accent); opacity: 1; font-weight: 600; }
+
+  /* ---------- Content ---------- */
+  .legal-content {
+    padding: 80px 0 60px;
+  }
+  .legal-content h1 {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+    line-height: 1.1;
+    margin-bottom: 8px;
+  }
+  .legal-content .update-date {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 48px;
+  }
+  .legal-content h2 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin-top: 42px;
+    margin-bottom: 16px;
+  }
+  .legal-content h3 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    margin-top: 28px;
+    margin-bottom: 12px;
+  }
+  .legal-content p {
+    margin-bottom: 16px;
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .legal-content ul {
+    margin-left: 20px;
+    margin-bottom: 16px;
+  }
+  .legal-content li {
+    margin-bottom: 8px;
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .legal-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+  }
+  .legal-content table th,
+  .legal-content table td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  .legal-content table th {
+    background: var(--bg-soft);
+    font-weight: 600;
+  }
+  .legal-content strong {
+    font-weight: 600;
+  }
+
+  /* ---------- Footer ---------- */
+  footer {
+    background: var(--bg-soft);
+    padding: 40px 0;
+    font-size: 12px;
+    color: var(--text-muted);
+    border-top: 1px solid var(--line);
+  }
+  .footer-inner {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;
+  }
+  .footer-links { display: flex; gap: 22px; flex-wrap: wrap; }
+  .footer-links a { color: var(--text-muted); }
+  .footer-links a:hover { color: var(--text); text-decoration: underline; }
+
+  @media (max-width: 768px) {
+    .nav-links { gap: 12px; font-size: 11px; margin-left: 16px; }
+    .legal-content h1 { font-size: 32px; }
+    .legal-content h2 { font-size: 20px; }
+    .footer-inner { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a class="logo" href="/">
+      <span class="logo-mark">G</span>
+      <span>Geninho</span>
+    </a>
+    <div class="nav-links">
+      <a href="/#responsaveis">Responsáveis</a>
+      <a href="/#estudantes">Estudantes</a>
+      <a href="/#geninho">Geninho</a>
+      <a href="/#funcionalidades">Funcionalidades</a>
+      <a href="/#planos">Planos</a>
+    </div>
+    <div class="lang-switch" aria-label="Idioma / Language / Idioma">
+      <a href="/termos/" class="active" hreflang="pt-BR" lang="pt-BR">PT</a>
+      <a href="/en/terms/" hreflang="en" lang="en">EN</a>
+      <a href="/es/terminos/" hreflang="es" lang="es">ES</a>
+    </div>
+  </div>
+</nav>
+
+<section class="legal-content">
+  <div class="container">
+    <h1>Termos de Uso — Geninho</h1>
+    <div class="update-date"><strong>Última atualização:</strong> 19 de abril de 2026</div>
+
+    <h2>1. Aceitação</h2>
+    <p>Ao criar conta, acessar ou usar o Geninho, você declara que leu e concorda com estes Termos de Uso.</p>
+
+    <h2>2. Escopo do serviço</h2>
+    <p>O Geninho é um app de apoio educacional para famílias, com recursos de:</p>
+    <ul>
+      <li>organização de aulas, atividades e rotina de estudos,</li>
+      <li>cadastro de anos escolares, matérias e assuntos,</li>
+      <li>importação OCR para grade, calendário e conteúdos,</li>
+      <li>geração de plano de estudos com IA,</li>
+      <li>validação de conclusão de estudo por quiz,</li>
+      <li>gamificação com moedas, conquistas e recompensas.</li>
+    </ul>
+
+    <h2>3. Contas e perfis</h2>
+    <ul>
+      <li>O usuário deve fornecer dados corretos e atualizados.</li>
+      <li>Perfis de filhos são gerenciados por responsáveis vinculados à mesma família.</li>
+      <li>O usuário é responsável pela segurança da conta e do dispositivo.</li>
+    </ul>
+
+    <h2>4. Uso permitido</h2>
+    <p>É permitido usar o Geninho para fins pessoais e educacionais, de forma lícita.</p>
+    <p>Não é permitido:</p>
+    <ul>
+      <li>tentar invadir, alterar ou explorar sistemas sem autorização,</li>
+      <li>fraudar limites de plano,</li>
+      <li>distribuir, revender ou copiar partes do app sem autorização,</li>
+      <li>usar o app para fins ilícitos ou ofensivos.</li>
+    </ul>
+
+    <h2>5. Plano Free e Premium</h2>
+    <ul>
+      <li>O plano Free possui limites de uso.</li>
+      <li>O plano Premium amplia ou remove limites, conforme informado no app.</li>
+      <li>Cobrança, renovação e cancelamento seguem as regras da App Store.</li>
+    </ul>
+
+    <h2>6. IA, OCR e conteúdo gerado por terceiros</h2>
+
+    <h3>6.1 Origem do conteúdo</h3>
+    <p>Partes significativas do conteúdo apresentado no Geninho — incluindo <strong>perguntas de quiz, explicações, planos de estudo, estruturação de OCR e respostas do chat do Geninho</strong> — são produzidas por <strong>sistemas de inteligência artificial de terceiros</strong>, em particular:</p>
+    <ul>
+      <li><strong>OpenAI</strong> (ChatGPT / GPT),</li>
+      <li><strong>Google Gemini</strong>,</li>
+      <li><strong>Microsoft Azure OpenAI</strong> (quando configurado).</li>
+    </ul>
+    <p>Esses modelos são <strong>probabilísticos</strong> e podem, a qualquer momento, gerar conteúdo:</p>
+    <ul>
+      <li>com erros factuais, lógicos ou matemáticos;</li>
+      <li>desatualizado em relação ao currículo escolar vigente;</li>
+      <li>pedagogicamente inadequado para determinada idade ou série;</li>
+      <li>divergente das respostas oficiais da escola do aluno;</li>
+      <li>eventualmente sensível, ofensivo ou fora de escopo, apesar dos mecanismos de moderação.</li>
+    </ul>
+
+    <h3>6.2 Não criamos nem editamos o conteúdo gerado</h3>
+    <p>O Geninho <strong>não redige manualmente</strong> as perguntas, respostas ou explicações apresentadas pela IA. Atuamos como <strong>intermediário tecnológico</strong>: enviamos o contexto necessário ao provedor de IA e exibimos a resposta ao usuário dentro de uma experiência controlada. Por esse motivo, <strong>não nos responsabilizamos pelo conteúdo específico</strong> gerado pela IA em cada interação.</p>
+
+    <h3>6.3 Mecanismos de mitigação oferecidos</h3>
+    <p>Para reduzir riscos, o Geninho oferece:</p>
+    <ul>
+      <li><strong>revisão automatizada</strong> do quiz antes da exibição ao aluno;</li>
+      <li><strong>embaralhamento</strong> das alternativas;</li>
+      <li>botão <strong>"substituir pergunta"</strong> com registro de feedback;</li>
+      <li><strong>classificação automatizada</strong> das perguntas do chat livre, com bloqueio de conteúdo claramente inapropriado;</li>
+      <li><strong>painel de revisão do responsável</strong> para perguntas sinalizadas (gabarito direto, conteúdo sensível, suspeita);</li>
+      <li>recomendação permanente de <strong>conferência humana</strong> dos dados importados via OCR.</li>
+    </ul>
+    <p>Esses mecanismos são um esforço de redução de risco, <strong>não uma garantia de conteúdo 100% correto ou apropriado</strong>.</p>
+
+    <h3>6.4 Responsabilidade do usuário</h3>
+    <p>Ao aceitar estes Termos, você reconhece que:</p>
+    <ul>
+      <li>entende que o conteúdo é gerado por IA e pode conter erros;</li>
+      <li><strong>é responsável por revisar criticamente</strong> qualquer conteúdo antes de aplicá-lo (estudo, prova, decisão pedagógica, etc.);</li>
+      <li><strong>o Geninho não substitui professor, escola, livro didático ou material oficial</strong>; é apenas uma ferramenta de apoio;</li>
+      <li>em caso de dúvida, deve confirmar a informação com fontes humanas qualificadas (professores, coordenação pedagógica, materiais da escola);</li>
+      <li>se identificar conteúdo inadequado, deve reportar pelos canais do app (feedback de pergunta, fluxo de substituição ou e-mail <a href="mailto:suporte@geninho.app.br">suporte@geninho.app.br</a>).</li>
+    </ul>
+
+    <h3>6.5 YouTube</h3>
+    <p>O app pode sugerir vídeos do YouTube como reforço, <strong>apenas</strong> quando a permissão estiver ativa no perfil do aluno. O conteúdo do YouTube pertence a terceiros e segue seus próprios termos e políticas — o Geninho não produz, não modera e não se responsabiliza por esse conteúdo.</p>
+
+    <h2>7. Conclusão de estudos e recompensas</h2>
+    <ul>
+      <li>Conclusões de estudo podem exigir validação por quiz, conforme configuração do perfil do aluno.</li>
+      <li>Recompensas em moedas são virtuais e <strong>não têm valor monetário</strong> nem podem ser convertidas em dinheiro ou bens fora do app.</li>
+      <li>Prêmios cadastrados na família são de <strong>responsabilidade exclusiva dos responsáveis</strong>; o Geninho não intermedeia, garante ou entrega prêmios físicos.</li>
+    </ul>
+
+    <h2>8. Propriedade intelectual</h2>
+    <p>Marca, identidade visual, código, layout, textos próprios e componentes originais do Geninho são protegidos por direitos de propriedade intelectual aplicáveis. O uso do app <strong>não concede licença</strong> sobre esses elementos.</p>
+
+    <h2>9. Limitação de responsabilidade</h2>
+
+    <h3>9.1 Natureza do serviço</h3>
+    <p>O Geninho é uma <strong>ferramenta de apoio educacional</strong>, fornecida "no estado em que se encontra" e "conforme disponível" (<em>as is / as available</em>), dentro dos limites permitidos pela legislação brasileira.</p>
+
+    <h3>9.2 Itens pelos quais o Geninho não se responsabiliza</h3>
+    <p>Na máxima extensão permitida pela legislação brasileira, o Geninho e seu desenvolvedor <strong>não se responsabilizam</strong> por:</p>
+    <ul>
+      <li><strong>conteúdo gerado por IA</strong> — incluindo, mas não limitado a, perguntas, respostas, explicações, planos de estudo, estruturação de OCR e respostas de chat (ver seção 6);</li>
+      <li><strong>decisões pedagógicas, acadêmicas ou de outra natureza</strong> tomadas pelo usuário com base em sugestões do app;</li>
+      <li><strong>desempenho escolar</strong>, notas, aprovação em provas ou resultados acadêmicos específicos;</li>
+      <li><strong>indisponibilidade, atrasos ou falhas</strong> de serviços de terceiros dos quais o app depende (Apple, Google, OpenAI, Azure, rede de telefonia, provedores de internet);</li>
+      <li><strong>perda de dados</strong> causada por interrupção de serviços de terceiros ou falhas no dispositivo do usuário;</li>
+      <li><strong>danos indiretos, lucros cessantes ou danos emergentes</strong> não previstos em lei.</li>
+    </ul>
+
+    <h3>9.3 Direitos do consumidor</h3>
+    <p>Esta limitação <strong>não afasta</strong> os direitos garantidos ao consumidor pelo Código de Defesa do Consumidor (Lei nº 8.078/1990) nem pela Lei Geral de Proteção de Dados (Lei nº 13.709/2018). Vícios do próprio app (não de conteúdo de terceiros) serão tratados conforme essas leis e o canal de suporte <a href="mailto:suporte@geninho.app.br">suporte@geninho.app.br</a>.</p>
+
+    <h2>10. Encerramento e exclusão</h2>
+    <ul>
+      <li>O usuário pode solicitar exclusão da conta pelo app.</li>
+      <li>O Geninho pode suspender contas em caso de violação destes Termos ou exigência legal.</li>
+    </ul>
+
+    <h2>11. Atualizações destes termos</h2>
+    <p>Podemos atualizar estes Termos para refletir mudanças legais, técnicas e de produto. A versão vigente fica disponível no app e nos canais oficiais.</p>
+
+    <h2>12. Contato</h2>
+    <p>Dúvidas sobre estes Termos: <a href="mailto:suporte@geninho.app.br"><strong>suporte@geninho.app.br</strong></a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="container footer-inner">
+    <span>© 2026 Geninho — Pablo Rodrigo (desenvolvedor independente), Recife/PE</span>
+    <div class="footer-links">
+      <a href="/termos/">Termos</a>
+      <a href="/privacidade/">Privacidade</a>
+      <a href="/transparencia/">Transparência</a>
+      <a href="mailto:suporte@geninho.app.br">suporte@geninho.app.br</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
