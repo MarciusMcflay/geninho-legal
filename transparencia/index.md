@@ -5,8 +5,6 @@ permalink: /transparencia/
 lang: pt-BR
 ---
 
-> 🌐 **Idioma:** **PT** · [EN](/en/transparency/) · [ES](/es/transparencia/)
-
 # Transparência e Segurança — Geninho
 
 **Última atualização:** 28 de março de 2026

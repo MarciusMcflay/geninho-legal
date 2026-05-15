@@ -5,8 +5,6 @@ permalink: /es/transparencia/
 lang: es
 ---
 
-> 🌐 **Idioma:** [PT](/transparencia/) · [EN](/en/transparency/) · **ES**
-
 > Esta es una traducción de cortesía del documento original en portugués. En caso de cualquier discrepancia, prevalece la [versión en portugués](https://geninho.app.br/transparencia/).
 
 # Transparencia y Seguridad — Geninho

@@ -5,8 +5,6 @@ permalink: /en/transparency/
 lang: en
 ---
 
-> 🌐 **Language:** [PT](/transparencia/) · **EN** · [ES](/es/transparencia/)
-
 > This is a courtesy translation of the original Portuguese document. In case of any discrepancy, the [Portuguese version](https://geninho.app.br/transparencia/) prevails.
 
 # Transparency & Security — Geninho

@@ -5,8 +5,6 @@ permalink: /privacidade/
 lang: pt-BR
 ---
 
-> 🌐 **Idioma:** **PT** · [EN](/en/privacy/) · [ES](/es/privacidad/)
-
 # Política de Privacidade — Geninho
 
 **Última atualização:** 21 de abril de 2026

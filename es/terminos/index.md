@@ -5,8 +5,6 @@ permalink: /es/terminos/
 lang: es
 ---
 
-> 🌐 **Idioma:** [PT](/termos/) · [EN](/en/terms/) · **ES**
-
 > Esta es una traducción de cortesía del documento original en portugués. En caso de cualquier discrepancia, prevalece la [versión en portugués](https://geninho.app.br/termos/).
 
 # Términos de Uso — Geninho
